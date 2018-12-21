@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'DSFloatingButton_Example' do
-  pod 'DSFloatingButton', :path => '../'
+    pod 'DSFloatingButton', :path => '../'
 
   target 'DSFloatingButton_Tests' do
     inherit! :search_paths

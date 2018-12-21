@@ -1,0 +1,6 @@
+framework module DSFloatingButton {
+  umbrella header "DSFloatingButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_DSFloatingButton_Example {
+  umbrella header "Pods-DSFloatingButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

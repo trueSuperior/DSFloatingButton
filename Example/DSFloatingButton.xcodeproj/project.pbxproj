@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27128B6C21CD188000BAB417 /* Pods_DSFloatingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27128B6B21CD188000BAB417 /* Pods_DSFloatingButton_Example.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		27128B7121CD1F8F00BAB417 /* DSFloatingButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27128B6521CD152800BAB417 /* DSFloatingButton.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		F98477FD8CC27F4B50F74FA5 /* Pods_DSFloatingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12910E1BF774F8EF40054C99 /* Pods_DSFloatingButton_Example.framework */; };
 		FA255779531E1469F99AF1EA /* Pods_DSFloatingButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638593A3FD254F0F5CADB0D /* Pods_DSFloatingButton_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,10 @@
 /* Begin PBXFileReference section */
 		12910E1BF774F8EF40054C99 /* Pods_DSFloatingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSFloatingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134B09ABA0F3FE0DE3F999EC /* Pods-DSFloatingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSFloatingButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27128B6321CD151C00BAB417 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
+		27128B6521CD152800BAB417 /* DSFloatingButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DSFloatingButton.framework; path = Carthage/Build/iOS/DSFloatingButton.framework; sourceTree = "<group>"; };
+		27128B6721CD17D400BAB417 /* DSFloatingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DSFloatingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27128B6B21CD188000BAB417 /* Pods_DSFloatingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DSFloatingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F19F4C3BDEC89642CD8227 /* Pods-DSFloatingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSFloatingButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DSFloatingButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSFloatingButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +46,11 @@
 		607FACE51AFB9204008FA782 /* DSFloatingButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSFloatingButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78EA0BB9162A833DCA2B6782 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78EA0BB9162A833DCA2B6782 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B638593A3FD254F0F5CADB0D /* Pods_DSFloatingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSFloatingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E7377CB84D968590415BD8 /* Pods-DSFloatingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSFloatingButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CDE747DC7FFEB42CFBF7EBEB /* DSFloatingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DSFloatingButton.podspec; path = ../DSFloatingButton.podspec; sourceTree = "<group>"; };
-		E93B57A8190703391F276800 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CDE747DC7FFEB42CFBF7EBEB /* DSFloatingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSFloatingButton.podspec; path = ../DSFloatingButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E93B57A8190703391F276800 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE04CE14DB2B16AD2D1AB783 /* Pods-DSFloatingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSFloatingButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F98477FD8CC27F4B50F74FA5 /* Pods_DSFloatingButton_Example.framework in Frameworks */,
+				27128B7121CD1F8F00BAB417 /* DSFloatingButton.framework in Frameworks */,
+				27128B6C21CD188000BAB417 /* Pods_DSFloatingButton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,10 @@
 		340E89FA0A8A5BBDEA2DF781 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27128B6B21CD188000BAB417 /* Pods_DSFloatingButton_Example.framework */,
+				27128B6721CD17D400BAB417 /* DSFloatingButton.framework */,
+				27128B6521CD152800BAB417 /* DSFloatingButton.framework */,
+				27128B6321CD151C00BAB417 /* Build */,
 				12910E1BF774F8EF40054C99 /* Pods_DSFloatingButton_Example.framework */,
 				B638593A3FD254F0F5CADB0D /* Pods_DSFloatingButton_Tests.framework */,
 			);
@@ -170,7 +180,8 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				67AE74A16180B0DE1B6C9A40 /* [CP] Embed Pods Frameworks */,
+				27128B6221CD14A400BAB417 /* Run Script */,
+				348BDC61C5F825DBCE16A789 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,7 +200,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				9E99EC7F163507E660D44363 /* [CP] Embed Pods Frameworks */,
+				0B75B86D035280FECD7F4969 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,16 +219,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 54NKS42LKK;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -262,6 +274,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B75B86D035280FECD7F4969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27128B6221CD14A400BAB417 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DSFloatingButton.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		348BDC61C5F825DBCE16A789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DSFloatingButton/DSFloatingButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSFloatingButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		405F491848D262A8BD1D95AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,42 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67AE74A16180B0DE1B6C9A40 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DSFloatingButton/DSFloatingButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSFloatingButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Example/Pods-DSFloatingButton_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E99EC7F163507E660D44363 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSFloatingButton_Tests/Pods-DSFloatingButton_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE470361FA55F3B9E330F1A4 /* [CP] Check Pods Manifest.lock */ = {
@@ -396,12 +435,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -449,12 +490,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -488,13 +531,17 @@
 			baseConfigurationReference = FE04CE14DB2B16AD2D1AB783 /* Pods-DSFloatingButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54NKS42LKK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DSFloatingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -503,13 +550,17 @@
 			baseConfigurationReference = 134B09ABA0F3FE0DE3F999EC /* Pods-DSFloatingButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54NKS42LKK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DSFloatingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -529,8 +580,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSFloatingButton_Example.app/DSFloatingButton_Example";
 			};
 			name = Debug;
@@ -547,8 +597,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSFloatingButton_Example.app/DSFloatingButton_Example";
 			};
 			name = Release;
