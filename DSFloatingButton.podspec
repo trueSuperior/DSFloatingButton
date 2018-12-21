@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DSFloatingButton'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Easy to create diffuse shadow effect button for iOS.'
   s.swift_version    = '4.2.1'
   s.homepage         = 'https://github.com/trueSuperior/DSFloatingButton'
