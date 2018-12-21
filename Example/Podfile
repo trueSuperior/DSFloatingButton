@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSFloatingButton_Example' do
+  pod 'DSFloatingButton', :path => '../'
+
+  target 'DSFloatingButton_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
