@@ -11,12 +11,9 @@ import UIKit
 @IBDesignable
 open class DSFloatingButton: UIButton {
     
-    /// Gradient layer
-    open var gradientLayer: CAGradientLayer? = CAGradientLayer() {
-        willSet {
-            if newValue == nil, let layer = gradientLayer {
-                layer.removeFromSuperlayer()
-            }
+    open override class var layerClass: AnyClass {
+        get {
+            return CAGradientLayer.self
         }
     }
     
@@ -72,7 +69,8 @@ open class DSFloatingButton: UIButton {
     @IBInspectable
     open var gradientStartColor: UIColor = .clear {
         didSet {
-            gradientLayer?.colors = colors
+            guard let gradientLayer = self.layer as? CAGradientLayer else { return }
+            gradientLayer.colors = colors
         }
     }
     
@@ -80,7 +78,8 @@ open class DSFloatingButton: UIButton {
     @IBInspectable
     open var gradientEndColor: UIColor = .clear {
         didSet {
-            gradientLayer?.colors = colors
+            guard let gradientLayer = self.layer as? CAGradientLayer else { return }
+            gradientLayer.colors = colors
         }
     }
     
@@ -88,7 +87,8 @@ open class DSFloatingButton: UIButton {
     @IBInspectable
     open var gradientStartPoint: CGPoint = CGPoint(x: 0, y: 0) {
         didSet {
-            gradientLayer?.startPoint = gradientStartPoint
+            guard let gradientLayer = self.layer as? CAGradientLayer else { return }
+            gradientLayer.startPoint = gradientStartPoint
         }
     }
     
@@ -96,7 +96,8 @@ open class DSFloatingButton: UIButton {
     @IBInspectable
     open var gradientEndPoint: CGPoint = CGPoint(x: 1, y: 1) {
         didSet {
-            gradientLayer?.endPoint = gradientEndPoint
+            guard let gradientLayer = self.layer as? CAGradientLayer else { return }
+            gradientLayer.endPoint = gradientEndPoint
         }
     }
     
@@ -153,14 +154,11 @@ open class DSFloatingButton: UIButton {
         layer.shadowOpacity = shadowOpacity
         layer.shadowRadius = shadowRadius
         
-        guard let gradient = self.gradientLayer else { return }
-        gradient.removeFromSuperlayer()
-        gradient.frame = bounds
-        gradient.cornerRadius = useCornerRadius ? cornerRadius : bounds.midY
-        gradient.colors = colors
-        gradient.startPoint = gradientStartPoint
-        gradient.endPoint = gradientEndPoint
-        layer.insertSublayer(gradient, at: 0)
+        guard let gradientLayer = self.layer as? CAGradientLayer else { return }
+        gradientLayer.cornerRadius = useCornerRadius ? cornerRadius : bounds.midY
+        gradientLayer.colors = colors
+        gradientLayer.startPoint = gradientStartPoint
+        gradientLayer.endPoint = gradientEndPoint
     }
     
     @objc func onTouchUpInside(){
